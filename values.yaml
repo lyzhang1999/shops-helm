@@ -1,7 +1,6 @@
 # Default values for go-gin-stack.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
 nocalhost:
   backend:
     dev:
@@ -23,7 +22,7 @@ frontImage:
   repository: ghcr.io/lyzhang1999/shops-front
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "main"
+  tag: "v0.1.0"
 imagePullSecrets:
   - name: h8r-secret
 nameOverride: ""
